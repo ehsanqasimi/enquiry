@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <img src="./img/stacked-white.PNG" alt="" class="logo">
+        <ul class="ul hide">
+            <li class="tab"><a href="./index.html"">Home</a></li>
+            <li class="tab"><a href="./about.html">About</a></li>
+            <li class="tab"><a href="./qualification.html"">Qualification</a></li>
+            <li class="tab active"><a href="./enquiryPage.html"">Enquiry</a></li>
+            <li class="tab"><a href="./contact.html"">Contact</a></li>
+        </ul>
+        <span class=" material-icons burger">menu</span>
+    
+    </nav>
+
+    <main>
+        <div class="enquiry">
+            <form id="enquiry-form" action="#">
+                <!-- name -->
+                <div class="inputContainer">
+                    <label for="name-enquiry">Name</label>
+                    <strong class="name-error">please enter a name</strong>
+                    <input type="text" id="name-enquiry" class="name">
+                </div>
+                <!-- email -->
+                <div class="inputContainer">
+                    <label for="email-enquiry">Email</label>
+                    <strong class="email-error">please enter an email</strong>
+                    <input type="email" id="email-enquiry" class="email">
+                </div>
+                <!-- courses dropdown -->
+                <div class="inputContainer">
+                    <label for="courses">Course</label>
+                    <select name="course" id="courses">
+                        <option value="Tax Law for Tax Agents and Tax (Financial) Advisers ">Tax Law for Tax Agents and Tax
+                            (Financial) Advisers</option>
+                        <option value="Accounting">Accounting
+                        </option>
+                        <option value="cyber security">Cyber Security
+                        </option>
+                        <option value="Web Development">Web Development
+                        </option>
+            
+                    </select>
+                </div>
+                <!-- message -->
+                <div class="inputContainer messageContainer">
+                    <label for="message-enquiry">Message</label>
+                    <strong class="message-error">please enter a message</strong>
+                    <textarea  name="message" id="message-enquiry" cols="30" rows="10"></textarea>
+                </div>
+                <button>Submit Enquiry</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="sections">
+            <ul class="pages">
+                <h3>Pages</h3>
+                <li>Home</li>
+                <li>About</li>
+                <li>Enquiry</li>
+            </ul>
+            <ul class="forms">
+                <h3>Forms</h3>
+                <li>Qualification</li>
+                <li>Contact</li>
+
+            </ul>
+            <ul class="social">
+                <h3>Social Links</h3>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </ul>
+
+        </div>
+        <p>© Gelos Inter Enterprise.</p>
+    </footer>
+    <script src="./js/enquiry.js"></script>
+</body>
+
+</html>
