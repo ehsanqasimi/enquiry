@@ -44,7 +44,7 @@ contactForm.addEventListener("submit", (e) => {
     const email = document.getElementById('email')
     const message = document.getElementById('message')
 
-    
+
     if (message.value.trim() === '') {
         document.querySelector('.message-error').classList.add('show')
     } else {
@@ -52,7 +52,7 @@ contactForm.addEventListener("submit", (e) => {
     }
 
 
-    if (!email.value.includes('.') {
+    if (!email.value.includes('.')) {
         document.querySelector('.email-error').classList.add('show')
     } else {
         document.querySelector('.email-error').classList.remove('show')
@@ -85,5 +85,3 @@ inputs.forEach(input => {
         }
     });
 });
-
-
