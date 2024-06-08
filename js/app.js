@@ -52,7 +52,7 @@ contactForm.addEventListener("submit", (e) => {
     }
 
 
-    if (email.value.trim() === '') {
+    if (!email.value.includes('.') {
         document.querySelector('.email-error').classList.add('show')
     } else {
         document.querySelector('.email-error').classList.remove('show')
