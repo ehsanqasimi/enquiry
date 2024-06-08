@@ -52,7 +52,7 @@ enquiry.addEventListener("submit", (e) => {
     }
 
 
-    if (emailEnquiry.value.trim() === '') {
+    if (!emailEnquiry.value.includes('.') {
         document.querySelector('.email-error').classList.add('show')
     } else {
         document.querySelector('.email-error').classList.remove('show')
