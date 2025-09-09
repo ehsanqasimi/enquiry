@@ -5,6 +5,7 @@ This is a responsive multi-page website for Gelos Enterprises (GE), a newly esta
 ## Table of Contents
 
 - [Overview](#overview)
+- [Overview](#screenshot)
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
@@ -16,6 +17,11 @@ This is a responsive multi-page website for Gelos Enterprises (GE), a newly esta
 ## Overview
 
 The website showcases GE’s values, qualifications, enquiry and contact forms, and general information. It is fully responsive and uses modern web development practices, including SCSS for styling and JavaScript for interactivity and form validation.
+
+
+##screenshot
+![Desktop View](./img/screenshots/desktop.png)
+![Mobile View](./img/screenshots/mobile.png)
 
 ## Features
 
